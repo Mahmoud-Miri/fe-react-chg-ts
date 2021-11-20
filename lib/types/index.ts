@@ -1,22 +1,22 @@
 export interface LenderGetResponse {
   name: string;
   fields: Array<
-    | 'first_name'
-    | 'last_name'
-    | 'email'
-    | 'date_of_birth'
-    | 'monthly_income'
-    | 'gender'
     | 'address'
+    | 'date_of_birth'
+    | 'email'
+    | 'first_name'
+    | 'gender'
+    | 'last_name'
+    | 'monthly_income'
   >;
 }
 
 export interface LenderGetResponseExtended {
   name: string;
-  fields: Array<LenderFields>;
+  fields: Array<LenderField>;
 }
 
-export interface LenderFields {
+export interface LenderField {
   name: string;
   type: string;
   required: boolean;
