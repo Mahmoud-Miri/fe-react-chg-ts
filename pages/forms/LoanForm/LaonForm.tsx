@@ -14,7 +14,7 @@ import {
   ExtendedLoanFormGetResp,
   LoanFormField,
   LoanFormGetResp,
-} from 'pages/forms/loanForm/types';
+} from 'pages/forms/LoanForm/types';
 import { toTitleCase } from 'lib/shared/utils';
 import AttachMoneyIcon from '@material-ui/icons/AttachMoney';
 import { InputAdornment } from '@material-ui/core';

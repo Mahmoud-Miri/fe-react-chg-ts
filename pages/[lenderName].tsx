@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import { Grid, ThemeProvider } from '@material-ui/core';
 import { NextPage } from 'next';
-import { LoanForm } from 'pages/forms/loanForm/LaonForm';
+import { LoanForm } from 'pages/forms/LoanForm/LaonForm';
 import { createTheme } from '@material-ui/core/styles';
 
 const LenderNamePage: NextPage = () => {
