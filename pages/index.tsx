@@ -11,7 +11,7 @@ const HomePage: NextPage = () => {
   return (
     <>
       <Typography variant="h5" component="h5">
-        fe-react-chg-ts
+        Loan Application Providers
       </Typography>
       <List>
         {lenders.map((lender) => (
